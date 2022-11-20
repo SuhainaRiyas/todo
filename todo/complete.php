@@ -10,6 +10,8 @@ $result = mysqli_query($connect,$sql);
      <div class="card">
           <div class="card-body">
             <h3 class="text-center m-4">Completed List</h3>
+	    <div class="alert alert-danger mt-3" id="erroralert" role="alert" style="display:none;"></div>
+            <div class="alert alert-success mt-3" id="successalert" role="alert" style="display:none;"></div>
             <div class="mt-5 mb-5">
             <table class="table table-striped" id="task_table">
 			<thead>
