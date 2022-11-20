@@ -1,6 +1,6 @@
 <?php session_start();
 if(!(isset($_SESSION['name']))){
-  header('location:/todo-task/login.php');
+  header('location:/todo-task-main/login.php');
 }
 ?>
 
