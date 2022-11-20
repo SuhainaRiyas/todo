@@ -133,7 +133,7 @@ if(isset($_SESSION['name'])){
 			      url: "action.php",
 			      success: function(data){
                 if(data == 'success'){
-                    window.location.href = "/todo-task/login.php";
+                    window.location.href = "/todo-task-main/login.php";
                 }else{
                     $('#erroralert').text(data).show();
                     setTimeout(function() { 
