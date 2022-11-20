@@ -126,7 +126,7 @@ if(isset($_SESSION['name'])){
 			      url: "action.php",
 			      success: function(data){
                 if(data == 'success'){
-                    window.location.href = "/todo-task/todo/index.php";
+                    window.location.href = "/todo-task-main/todo/index.php";
                 }else{
                     $('#erroralert').text(data).show();
                     setTimeout(function() { 
