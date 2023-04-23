@@ -1,19 +1,21 @@
-# todo-task
+# todo
 
-Signup
+Modules
 
-Signin
+1.Signup
 
-Todo List
+2.Signin
 
-Add new task
+3.Todo List
 
-Shows list of completed tasks
+4.Add new task
 
-Shows list of pending tasks
+5.Shows list of completed tasks
+
+6.Shows list of pending tasks
 
 Option to mark task as complete
 
 Option to mark task as not completed if the task is already marked as complete
 
-Url : http://localhost/todo-task-main/login.php
+Url : http://localhost/todo/login.php
